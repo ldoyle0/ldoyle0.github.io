@@ -1,20 +1,20 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700');
 html,body{width:100%;height:100%;}
 html{font-size:62.5%;}
-body{font-size:18px;font-size:1.8rem;font-family:'Helvetica','Hero';font-weight:400;background-color:#ffffff;color:#4597cb;}
+body{font-size:12px;font-size:1.2rem;font-family:'Helvetica','Hero';font-weight:400;background-color:#ffffff;color:#4597cb;}
 a{color:#ffffff;}a:hover{color:#ffffff;}
 a:focus{outline:none;}
 h1,h2,h3,h4,h5,h6{font-weight:300;color:#343E47;}
-h1{font-size:42px;font-size:3.6rem;}
-h2{font-size:34px;font-size:2.8rem;}
-h3{font-size:30px;font-size:2.4rem;}
-h4{font-size:24px;font-size:2.0rem;}
-h5{font-size:20px;font-size:1.4rem;}
+h1{font-size:36px;font-size:3.6rem;}
+h2{font-size:28px;font-size:2.8rem;}
+h3{font-size:24px;font-size:2.4rem;}
+h4{font-size:20px;font-size:2.0rem;}
+h5{font-size:14px;font-size:1.4rem;}
 .contentblock{margin-top:20px;margin-bottom:20px;}
 .pageheader{margin-top:100px;width:100%;background-color:#0C258A;/*background-image:url('../img/pat.jpg')*/;box-shadow:0 1px 2px #191919;}.pageheader h1{color:#ffffff;line-height:100px;}
 .pagecontent{width:100%;color:#25272C;margin-top:20px;margin-bottom:20px;}
 .alert i{margin-top:6px;margin-right:3px;}
-#header{position:fixed;z-index:1;display:inline-block;width:100%;height:98px;top:0;left:0;background-color:#ffffff;box-shadow:0 1px 2px #2d2d2d;border-bottom:solid 2px #cccccc;}#header #navtop ul{list-style:none;padding:0;margin:0;}#header #navtop ul li{float:left;}#header #navtop ul li a{line-height:100px;padding:20px;font-size:20px;font-size:2.0rem;color:#343E47;}
+#header{position:fixed;z-index:1;display:inline-block;width:100%;height:98px;top:0;left:0;background-color:#ffffff;box-shadow:0 1px 2px #2d2d2d;border-bottom:solid 2px #cccccc;}#header #navtop ul{list-style:none;padding:0;margin:0;}#header #navtop ul li{float:left;}#header #navtop ul li a{line-height:100px;padding:20px;font-size:18px;font-size:1.8rem;color:#343E47;}
 #header #navtop .active{font-weight:600;color:#FF7043;}
 #header #logo{line-height:100px;padding:0;margin:0;text-align:right;color:#386D8B;}
 #home #myCarousel{color:#ffffff;}#home #myCarousel h2{margin-top:80px;margin-bottom:10px;color:#ffffff;}
@@ -23,7 +23,7 @@ h5{font-size:20px;font-size:1.4rem;}
 #home #myCarousel .slideimgtext .span5{padding-right:80px;}
 #home .carousel-control{background:none repeat scroll 0 0 #fff;border-radius:50%;color:#493227;font-size:30px;font-weight:100;height:20px;line-height:12px;opacity:0.2;position:absolute;text-align:center;top:50%;width:20px;}
 #home .carousel{margin-bottom:0;}
-#home #highligths{text-align:center;}#home #highligths p{font-size:18px;font-size:1.8rem;/*opacity:.5;*/}
+#home #highligths{text-align:center;}#home #highligths p{font-size:12px;font-size:1.2rem;/*opacity:.5;*/}
 #home #highligths .icon{font-size:40px;font-size:4.0rem;width:auto;height:auto;margin-top:20px;line-height:auto;}
 #home #recent img{filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:url(desaturate.svg#greyscale);filter:gray;}
 #home #shoutbox{text-align:center;}
@@ -37,7 +37,7 @@ h5{font-size:20px;font-size:1.4rem;}
 #blog .post{margin:20px 0;}#blog .post img{margin-top:15px;}
 #blog #category{margin-top:20px;}
 #contact #address p{border-bottom: 1px solid #e5e5e5;}
-#contact #emailform label{font-size:18px;font-size:1.8rem;}
+#contact #emailform label{font-size:12px;font-size:1.2rem;}
 #contact #emailform legend{color:#ffffff;}
 #contact #emailform .help-block{color:#ffffff;opacity:.5;font-size:10px;font-size:1.0rem;}
 #contact #emailform .add-on{color:#555;}#contact #emailform .add-on i{margin-top:3px;}
