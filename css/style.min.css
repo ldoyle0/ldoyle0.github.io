@@ -21,6 +21,8 @@ h5{font-size:14px;font-size:1.4rem;}
 #home #myCarousel p{margin:20px 0;line-height:20px;/*opacity:.5;*/}
 #home #myCarousel .slidetextimg .span5{padding-left:80px;}
 #home #myCarousel .slideimgtext .span5{padding-right:80px;}
+#home #myCarousel .slidetextimg .span7{margin-top:20px;margin-bottom: 20px;}
+#home #myCarousel .slideimgtext .span7{margin-top:20px;margin-bottom: 20px;}
 #home .carousel-control{background:none repeat scroll 0 0 #fff;border-radius:50%;color:#493227;font-size:30px;font-weight:100;height:20px;line-height:12px;opacity:0.2;position:absolute;text-align:center;top:50%;width:20px;}
 #home .carousel{margin-bottom:0;}
 #home #highligths{text-align:center;}#home #highligths p{font-size:12px;font-size:1.2rem;/*opacity:.5;*/}
