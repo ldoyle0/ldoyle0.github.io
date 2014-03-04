@@ -1,737 +1,292 @@
+<!--
+ * Transition - FlipCard Theme
+ *
+ * Copyright 2014
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * Created By:Lee Doyle
+ * URL: http://www.basicoh.com
+ * Designed and built based on Twitter Bootstrap.
+ * Tags: multipurpose, agency theme, one page, single page, responsive, flat */
+--> 
+
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Lee T. Doyle</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Page description">
-		<meta name="author" content="Superthe.me" >
-		<meta charset="utf-8">
-		<link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link href="./css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-		<link href="./css/font-awesome.css" rel="stylesheet">
-		<link href="./css/animate.css" rel="stylesheet">
-		<link href="./css/style.min.css" rel="stylesheet" media="screen">
-    <link rel="shortcut icon" href="./img/lee-profile.jpg">
-		<!--[if IE 7]>
-			<link href="css/font-awesome-ie7.css" rel="stylesheet">
-		<![endif]-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Lee T. Doyle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Engineer, Triathlete, and all around Nerd. I am the most epic person you will meet this year.">
+    <meta name="author" content="Lee T. Doyle">
 
-		<!--[if lt IE 9]>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+    <!-- Le styles -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/component.css" rel="stylesheet">
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.8.2.min.js"%3E%3C/script%3E'))</script>
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
 
-	</head>
 
-	<body>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<script type="text/javascript" src="./js/modernizr.custom.js"></script>
+    
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-	<header id="header">
-		<div class="container">
-			<div class="row-fluid hidden-phone">
-				<div class="span9">
-					<nav id="navtop">
-						<ul>
-							<li><a href="#home" class="active">HOME</a></li>
-							<li><a href="#about-us">ABOUT ME</a></li>
-							<li><a href="#projects">PROJECTS</a></li>
-							<!--<li><a href="#our-work">OUR DEVICE</a></li>-->
-							<!--<li><a href="#pricing">PRICING</a></li>-->
-							<!--<li><a href="#blog">BLOG</a></li>-->
-							<li><a href="#contact">CONTACT</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="span3">
-					<h2 id="logo"><img src="./img/BlueRoot_Logo_RGB.png" /></h2>
-				</div>
-			</div>
-			<div class="row-fluid visible-phone">
-				<div class="span12">
-					<h2 id="logo"><img src="./img/BlueRoot_Logo_RGB.png" /></h2>
-					<div class="btn-group">
-						<a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">Menu<span class="caret"></span></a>
-						<ul class="dropdown-menu" id="navphone">
-								<li><a href="#home" class="active">HOME</a></li>
-								<li><a href="#about-us">ABOUT ME</a></li>
-								<li><a href="#projects">PROJECTS</a></li>
-								<!--<li><a href="#our-work">OUR WORK</a></li>
-								<!--<li><a href="#pricing">PRICING</a></li>-->
-								<!--<li><a href="#blog">BLOG</a></li>-->
-								<li><a href="#contact">CONTACT</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png">
 
-	<section id="home" class="panel" data-type="page" data-name="home">
-		<div class="pageheader">
-			<div class="container">
-				<div id="myCarousel" class="carousel slide">
-					<div class="carousel-inner">
-						<div class="active item slidetextimg">
-							<div class="row-fluid">
-								<div class="span5 animated fadeInDownBig">
-									<h2>Product Design</h2>
-									<p>From concept development through to production drawings.</p>
-								</div>
-								<div class="span7 animated rollIn img-polaroid">
-									<img alt="" src="./img/IWP_Pack.jpg" />
-								</div>
-							</div>
-						</div>
-						<div class="item slideimgtext">
-							<div class="row-fluid">
-								<div class="span5 animated rotateInUpRight offset1">
-									<img alt="" src="http://lorempixel.com/g/400/200" />
-								</div>
-								<div class="span4 animated fadeInRightBig">
-									<h2>Systems Design</h2>
-									<p>Hydraulic, pneumatic, mechanical, and water system design. </p>
-								</div>
-							</div>
-						</div>
-						<div class="item slidetextimg">
-							<div class="row-fluid">
-								<div class="span5 animated fadeInLeftBig">
-									<h2>Mechaincal Engineering</h2>
-									<p>Structural and mechanical design analyses that include motion studies and FEA.</p>
-								</div>
-								<div class="span7 animated fadeInUpBig">
-									<img alt="" src="http://lorempixel.com/g/400/200" />
-								</div>
-							</div>
-						</div>
-						<div class="item slideimgtext">
-							<div class="row-fluid">
-								<div class="span5 animated fadeInDownBig offset1">
-									<img alt="" src="http://lorempixel.com/g/400/200" />
-								</div>
-								<div class="span4 animated fadeInRight offset1">
-									<h2>Website Development</h2>
-									<p>Front-end coding skills with some backend experience. </p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-				</div>
-			</div>
-		</div>
-		<div class="pagecontent">
-			<div class="container">
-				<div id="shoutbox" class="contentblock">
-					<div class="row-fluid">
-						<div class="span12">
-							<h3>Father, Triathlete, Mechanical Design Engineer, and Novice Developer</h3>
-						</div>
-					</div>
-				</div>
-				<div id="highligths" class="contentblock">
-					<div class="row-fluid">
-						<div class="span3">
-							<i class="icon-columns icon"></i>
-							<h3>Father</h3>
-							<p>My first job will always be rasing my son, and being the best husband I can to my wife.</p>
-						</div>
-						<div class="span3">
-							<i class="icon-cogs icon"></i>
-							<h3>Triathlete</h3>
-							<p>I try to race at least five times a year, covering distances from Sprints to Half-Ironmans. Finishing a race is one of the greatest highs one could ever experience.</p>
-						</div>
-						<div class="span3">
-							<i class="icon-leaf icon"></i>
-							<h3>Design Engineer</h3>
-							<p>I have 3 years experience in the energy industry designing everything from cylinders to hydraulic valves. For 2 years I have been in the consumer product world designing point-of-use
-                     water filtration devices.</p>
-						</div>
-						<div class="span3">
-							<i class="icon-heart-empty icon"></i>
-							<h3>Novice Developer</h3>
-							<p>For the past two years I have been teaching myself to code. I am most familiar with Python, Javascript, HTML, and CSS. 
-                     My current focus is on familiarizing myself with the web frameworks of Django and Node.</p>
-						</div>
-					</div>
-				</div>
-				<!--<div id="recent" class="contentblock">
-					<div class="row-fluid">
-						<div class="span12">
-							<h2>Featured In</h2>
-						</div>
-					</div>
-					<div class="row-fluid">
-						<div class="span3">
-							<img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Dartmouth_College_shield.svg/220px-Dartmouth_College_shield.svg.png" />
-						</div>
-						<div class="span3">
-							<img alt="" src="http://rycodesign.com/images/green/logo.png" />
-						</div>
-						<div class="span3">
-							<img alt="" src="img/slide03.png" />
-						</div>
-						<div class="span3">
-							<img alt="" src="img/slide04.png" />
-						</div>
-					</div>
-				</div>-->
-			</div>
-		</div>
-	</section>
 
-	<section id="about" class="panel" data-type="page" data-name="about-us">
-		<div class="pageheader">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span12">
-						<h1>About Me</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="pagecontent">
-			<div class="container">
-				<div id="team" class="contentblock">
-					<div class="row-fluid">
-						<div class="span8 offset3">
-							<img alt="" src="img/lee-profile.jpg" />
-							<h3>Work History</h3>
-							<h4>Product Design Engineer</h4>
-							  <p>
-                 <ul>
-                   <li>Team lead on a project to develop a gravity fed water filter for low-income individuals.</li>
-                   <li>Team lead on a cost reduction project with the aim of reducing the cost of an existing project by ~50. We succeded in acheiving a 40 reduction</li>
-                   <li>Member of a team that developed a novel low-pressure cartridge for use in a counter-top water purification system.</li>
-                   <li>In-house IT support for approximately 35 users. Provide basic system fixes, upgrades, and set-up new users with accounts.</li>
-                 </ul>
-               </p>
-						</div>
-					</div>
-				</div>
-      <div class="contentblock">
-					<div class="row-fluid">
-						<div class="span8 offset3">
-							<h4>Mechanical Engineer</h4>
-							  <p>
-                 <ul>
-                   <li>Lead cylinder designer on a 40kW and 2MW compressed-air energy storage system.</li>
-                   <li>Lead designer on the cylinder support structures for the 40kW and 2MW energy storage systems.</li>
-                   <li>Administrator for the Vault data management system. Provided upkeep, training, and support for approximately 25 users.</li>
-                   <li>Member of a team to develop novel hydraulically driven pneumatic valves. Patent located <a href="http://www.google.com/patents/US8578708">here</a></li>
-                 </ul>
-               </p>
-						</div>
-					</div>
-				</div>
-					<!--<div class="contentblock">
-					<div class="row-fluid">
-						<div class="span8 offset2">
-							<h2>Our history</h2>
-							<p>The idea for Daily Driver came out of an everyday watercooler conversation between the founders. They were discussing their ideas for various
-                            applications and hardware devices but none of them really caught the other's attention. Finally, Dan mentioned his idea for a device that could 
-                            interpret the check engine light for you so there was no need to take your car to a service station or purchase expensive equipment to read the code.
-                            This idea did catch their attention and as they talked about the potential and technical challenges they all started to realize that a company was
-                            being born. 
-							</p>
-							<p>Armed with only a great idea and a couple months of concept generation, the BlueRoot team decided to apply to the Barris Incubator at Dartmouth. 
-    						 After a solid presentation by Adam and a meet and greet with several of the mentors and staff of the incubator, the BlueRoot team was selected as
-                             a winner and brought into the 2012-13 class. The incubator has been a tremdous opportunity for the BlueRoot team and the resources being brought
-                             into the company will help to craft a quality product that will make it easier for everyone to understand their vehicle.
-							</p>
-						</div>-->
-						<!--<div class="span4">
-							<h2>Testimonials</h2>
-							<p><em>Maecenas pretium nisi a nisi euismod rutrum. Aenean id viverra enim. Fusce cursus, ante ut aliquam pharetra.</em></p>
-							<p>Jane Doe</p>
-							<p><em>Maecenas pretium nisi a nisi euismod rutrum. Aenean id viverra enim. Fusce cursus, ante ut aliquam pharetra.</em></p>
-							<p>Jane Doe</p>
-							<p><em>Maecenas pretium nisi a nisi euismod rutrum. Aenean id viverra enim. Fusce cursus, ante ut aliquam pharetra.</em></p>
-							<p>Jane Doe</p>
-							<p><em>Maecenas pretium nisi a nisi euismod rutrum. Aenean id viverra enim. Fusce cursus, ante ut aliquam pharetra.</em></p>
-							<p>Jane Doe</p>
-						</div>-->
-					</div>
-				</div>
+  </head>
 
-			</div>
-		</div>
-	</section>
+  <body>
 
-	<section id="projects" class="panel" data-type="page" data-name="projects">
-		<div class="pageheader">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span12">
-						<h1>Projects</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="pagecontent">
-			<div class="container">				
-				<div class="container">
-					<div id="alert" class="contentpage">
-						<div class="alert">
-							<button type="button" class="close" data-dismiss="alert"><i class="icon-remove-sign"></i></button>
-							<strong>Warning!</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-						</div>
-						<div class="alert alert-success">
-							<button type="button" class="close" data-dismiss="alert"><i class="icon-remove-sign"></i></button>
-							<strong>Success!</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-						</div>
-						<div class="alert alert-info">
-							<button type="button" class="close" data-dismiss="alert"><i class="icon-remove-sign"></i></button>
-							<strong>Info!</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-						</div>
-						<div class="alert alert-error">
-							<button type="button" class="close" data-dismiss="alert"><i class="icon-remove-sign"></i></button>
-							<strong>Error!</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-						</div>
-					</div>
-					<div id="grid" class="contentpage">
+
+    <div class="container">
+
+			<div id="flip-main" class="flip-main">
+			
+			<!--=========== ABOUT SECTION ===========-->
+				<section>
+					<div class="flip-box">
+						<h2 >Hi, I'm Lee</h2> <!-- class="flip-icon flip-icon-about" -->
+					</div><!-- /flip-box -->
+       <div class="flip card back">
+					<div class="flip-content">
 						<div class="row-fluid">
 							<div class="span12">
-								<h3>12 Grids</h3>
-								<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-						</div>
-						<div class="row-fluid">
-							<div class="span6">
-								<h3>6 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-							<div class="span6">
-								<h3>6 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-						</div>
+								<h2>A Little About Me</h2>
+								<p>I'm a freelance mechanical engineer and CAD designer living in New Hampshire, USA. I started freelancing in 2013 and have worked in a wide range of industries. 
+								Primarily, I have worked in the energy industry, while recently I have been more focused in consumer products.</p>
+								<p>I offer a complete design solution for your project. I can take your initial concept from an idea to a complete production ready product. 
+								    Conversely, I can take a project at any stage in its development and move it forward. I am extremely flexible, and am always looking for a challenge.</p>
+								<!--<p></p>-->
+								<!--<p></p>-->
+								<!--<p></p>-->
+								<p></p>
+								<div class="row-fluid">
+									<div class="span8">
+									<h2>My Skills</h2>
+									    <!-- Progress Bar --> 
+										<div class="progress">
+										<div class="bar" style="width: 99%;">3-D CAD 99%</div>
+										</div>  
+										<div class="progress">
+										<div class="bar" style="width: 99%;">Drawing/Documentation 99%</div>
+										</div>  
+										<div class="progress">
+										<div class="bar" style="width: 80%;">Design for Manufacture 80%</div>
+										</div>  
+										<div class="progress">
+										<div class="bar" style="width: 60%;">Engineering 60%</div>
+										</div>  
+										<div class="progress">
+										<div class="bar" style="width: 70%;">FEA 70%</div>
+										</div> 
+										<!-- Progress Bar End --> 
+									</div><!-- /span6 -->
+									<!--<div class="span4"></div>
+									<div class="span12">
+										<br>
+										<br>
+									</div>-->
+								</div><!-- /row -->
+							</div><!-- /span12 -->
+						</div><!-- /row-fluid -->
+					</div><!-- /flip-content -->
+         </div><!-- /flip card back -->
+					<span class="flip-icon flip-icon-close"></span>
+				</section>
+				
+				
+				
+			<!--=========== PORTFOLIO SECTION ===========-->
+				<section id="flip-work-section">
+					<div class="flip-box">
+						<h2 >Recent Work</h2> <!-- class="flip-icon flip-icon-works"-->
+					</div>
+					<div class="flip-content">
+						<h2>Some Recent Projects</h2>
+						<p></p>
+						<p></p>
 						<div class="row-fluid">
 							<div class="span4">
-								<h3>4 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
+								<ul id="flip-work-items" style="list-style: none;">
+									<li data-panel="panel-1"><a href="#"><img src="images/project1.jpg" /></a></li>
+								</ul>
+								<p>Project Number 1</p>							
+							</div><!-- /span4 -->
 							<div class="span4">
-								<h3>4 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
+								<ul id="flip-work-items">
+									<li data-panel="panel-2"><a href="#"><img src="images/project2.jpg" /></a></li>
+								</ul>
+								<p>Project Number 2</p>							
+							</div><!-- /span4 -->
 							<div class="span4">
-								<h3>4 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-						</div>
+								<ul id="flip-work-items">
+									<li data-panel="panel-3"><a href="#"><img src="images/project3.jpg" /></a></li>
+								</ul>
+								<p>Project Number 3</p>							
+							</div><!-- /span4 -->
+
+						</div><!-- /row-fluid -->
+					</div><!-- /flip-content -->
+					<span class="flip-icon flip-icon-close"></span>
+				</section>
+				
+				
+				
+			<!--=========== flipOG SECTION ===========-->
+				<section>
+					<div class="flip-box">
+						<h2>Warning: My Thoughts Inside</h2>
+					</div>
+					<div class="flip-content">
 						<div class="row-fluid">
-							<div class="span3">
-								<h3>3 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-							<div class="span3">
-								<h3>3 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-							<div class="span3">
-								<h3>3 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-							<div class="span3">
-								<h3>3 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-						</div>
+							<div class="span12">
+								<h2>Latest flipog Entry</h2>
+								<article>
+									<h3>Expanding Your Horizons</h3>
+									<img src="images/flipogentry.jpg" alt="">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramfliped it to make a type specimen book.</p>
+									<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop puflipishing software like Aldus PageMaker including versions of Lorem Ipsum.<a href="#">Read more</a></p>
+								</article>
+								<hr>
+								<h2>Other Entries</h2>
+								<article>
+									<h3>flipog Post 1</h3>
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text.... <a href="#">Read more</a></p>
+								</article>
+								<article>
+									<h3>flipog Post 2</h3>
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text.... <a href="#">Read more</a></p>
+								</article>
+								<article>
+									<h3>flipog Post 3</h3>
+									<p>Contrary to popular belief, Lorem Ipsum is not simply random text.... <a href="#">Read more</a></p>
+								</article>
+								
+							</div><!-- /span12 -->
+						</div><!-- /row-fluid -->
+					</div><!-- /flip-content -->
+					<span class="flip-icon flip-icon-close"></span>
+				</section>
+				
+				
+				
+			<!--=========== CONTACT SECTION ===========-->
+				<section>
+					<div class="flip-box">
+						<h2 >Contact Me</h2>
+					</div>
+					<div class="flip-content">
 						<div class="row-fluid">
-							<div class="span2">
-								<h3>2 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-							<div class="span2">
-								<h3>2 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-							<div class="span2">
-								<h3>2 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-							<div class="span2">
-								<h3>2 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-							<div class="span2">
-								<h3>2 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
-							<div class="span2">
-								<h3>2 Grids</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-							</div>
+							<div class="span12">
+								<h2>Get in touch</h2>
+								<br>
+								<p>Freelance jobs are my jam. Please contact me with any inquiries.</p>								
+							
+							<p>
+								<p>ldoyle0@gmail.com | New Hampshire, USA</p>
+							</p>
+							
+							<p>
+								<a href="https://www.facebook.com/people/Lee-T-Doyle/6226365" class="social-network facebook"></a>
+								<!--<a href="#" class="social-network pinterest"></a>
+								<a href="#" class="social-network flickr"></a>
+								<a href="#" class="social-network dribbflipe"></a>-->
+								<!--<a href="#" class="social-network twitter"></a>-->
+								<!--<a href="#" class="social-network apple"></a>-->
+								<a href="http://leedoyle.tumflipr.com/" class="social-network tumflipr"></a>
+								<!--<a href="#" class="social-network vimeo"></a>-->
+							</p>
+							
+							<p>
+							<object type="application/x-shockwave-flash" data="https://clients4.google.com/voice/embed/webCallButtonVm" width="230" height="85">
+							<param name="movie" value="https://clients4.google.com/voice/embed/webCallButtonVm" /><param name="wmode" value="transparent" />
+							<param name="FlashVars" value="id=d89488049569118e91edd92318806b21e0d7b0f2&style=0" /></object>
+							</p>
+							
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!--<section id="work" class="panel" data-type="page" data-name="our-work">
-		<div class="pageheader">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span12">
-						<h1>Our Device</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="pagecontent">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span12">
-						<p>Sed sit amet nisl arcu. In hac habitasse platea dictumst. Donec dui tellus, vulputate pellentesque adipiscing aliquet, fringilla in justo. Aliquam quis nulla ac orci sollicitudin dictum eget id ipsum. Mauris ac risus nec massa pretium suscipit vel porta libero. In hac habitasse platea dictumst. Praesent posuere imperdiet nisi et luctus. Nam vitae lorem non nibh egestas vestibulum vehicula scelerisque tortor. In hac habitasse platea dictumst. Morbi semper consequat sagittis. Nulla et vehicula arcu. Cras et sapien vehicula diam mollis pharetra ut et ligula.</p>
-					</div>
-				</div>
-				<div class="row-fluid">
-					<div class="span4">
-						<h4>Lorem ipsum dolor</h4>
-						<img alt="" class="img-polaroid" src="img/iPhone_template.png" width="100">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-					</div>
-					<div class="span4">
-						<h4>Lorem ipsum dolor</h4>
-						<img alt="" class="img-polaroid" src="img/work.jpg">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-					</div>
-					<div class="span4">
-						<h4>Lorem ipsum dolor</h4>
-						<img alt="" class="img-polaroid" src="img/work.jpg">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-					</div>
-				</div>
-				<div class="row-fluid">
-					<div class="span4">
-						<h4>Lorem ipsum dolor</h4>
-						<img alt="" class="img-polaroid" src="img/work.jpg">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-					</div>
-					<div class="span4">
-						<h4>Lorem ipsum dolor</h4>
-						<img alt="" class="img-polaroid" src="img/work.jpg">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-					</div>
-					<div class="span4">
-						<h4>Lorem ipsum dolor</h4>
-						<img alt="" class="img-polaroid" src="img/work.jpg">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-					</div>
-				</div>
-				<div class="row-fluid">
-					<div class="span4">
-						<h4>Lorem ipsum dolor</h4>
-						<img alt="" class="img-polaroid" src="img/work.jpg">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-					</div>
-					<div class="span4">
-						<h4>Lorem ipsum dolor</h4>
-						<img alt="" class="img-polaroid" src="img/work.jpg">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-					</div>
-					<div class="span4">
-						<h4>Lorem ipsum dolor</h4>
-						<img alt="" class="img-polaroid" src="img/work.jpg">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>-->
-
-	<!--<section id="pricing" class="panel" data-type="page" data-name="pricing">
-		<div class="pageheader">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span12">
-						<h1>Pricing</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="pagecontent">
-			<div class="container">
-				<div id="pricetable">
-					<div class="row-fluid">
-						<div class="span3">
-							<h3>Basic</h3>
-							<i class="icon-magic icon"></i>
-							<h2>&euro; 10 <small>/ m</small></h2>
-							<p>Nulla nibh sapien, ultrices vitae tincidunt nec, venenatis nec magna. Proin sed risus quam, vel semper diam.</p>
-							<ul class="options">
-								<li>5 products</li>
-								<li>1 image per product</li>
-								<li>Basic stats</li>
-								<li>Fully hosted</li>
-								<li class="notavailable">No tracking</li>
-								<li class="notavailable">No coupons</li>
-								<li class="notavailable">Branded CMS</li>
-								<li class="notavailable">Company url</li>
-							</ul>
-							<a class="btn">Select</a>
-						</div>
-						<div class="span3">
-							<h3>Professional</h3>
-							<i class="icon-leaf icon"></i>
-							<h2>&euro; 20 <small>/ m</small></h2>
-							<p>Nulla nibh sapien, ultrices vitae tincidunt nec, venenatis nec magna. Proin sed risus quam, vel semper diam.</p>
-							<ul class="options">
-								<li>15 products</li>
-								<li>5 image per product</li>
-								<li>Professional stats</li>
-								<li>Fully hosted</li>
-								<li>Basic tracking</li>
-								<li>10 coupons</li>
-								<li class="notavailable">Branded CMS</li>
-								<li class="notavailable">Company url</li>
-							</ul>
-							<a class="btn">Select</a>
-						</div>
-						<div class="span3">
-							<h3>Enterprise</h3>
-							<i class="icon-cloud icon"></i>
-							<h2>&euro; 100 <small>/ m</small></h2>
-							<p>Nulla nibh sapien, ultrices vitae tincidunt nec, venenatis nec magna. Proin sed risus quam, vel semper diam.</p>
-							<ul class="options">
-								<li>Unlimited products</li>
-								<li>Unlimited image per product</li>
-								<li>Advanced stats</li>
-								<li>Fully hosted</li>
-								<li>Advanced tracking</li>
-								<li>Unlimited coupons</li>
-								<li>Open Source CMS</li>
-								<li>Custom url</li>
-							</ul>
-							<a class="btn">Select</a>
-						</div>
-						<div class="span3">
-							<h3>Community</h3>
-							<i class="icon-home icon"></i>
-							<h2>&euro; 0 <small>/ m</small></h2>
-							<p>Nulla nibh sapien, ultrices vitae tincidunt nec, venenatis nec magna. Proin sed risus quam, vel semper diam.</p>
-							<ul class="options">
-								<li>Unlimited products</li>
-								<li>Unlimited image per product</li>
-								<li>Basic stats</li>
-								<li>Self hosted</li>
-								<li>Advanced tracking</li>
-								<li>Unlimited coupons</li>
-								<li>Open Source CMS</li>
-								<li>Custom url</li>
-							</ul>
-							<a class="btn">Select</a>
-						</div>
-					</div>
-				</div>
-				<div class="row-fluid">
-					<div class="span12">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales, orci a tempor laoreet, ipsum mi ullamcorper sem, quis luctus odio sem vitae sapien. Integer commodo venenatis libero eleifend condimentum. In non ante risus, eu rhoncus risus. Vestibulum hendrerit ligula massa. Nulla facilisi. Duis vitae dapibus metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis dui dui, porttitor sit amet auctor vitae, dignissim in lorem. Aliquam eget diam ligula.
-						</p>
-						<p>Donec laoreet, enim ac venenatis egestas, libero nibh aliquet leo, ut lacinia leo mauris sit amet erat. Vivamus imperdiet neque et odio pharetra adipiscing. Nulla nibh sapien, ultrices vitae tincidunt nec, venenatis nec magna. Proin sed risus quam, vel semper diam. Suspendisse sit amet turpis at ante posuere congue quis non quam. Duis aliquet enim a orci gravida auctor. Ut condimentum risus ac augue elementum eu vehicula nunc molestie. Suspendisse est eros, vulputate sed aliquam non, fringilla a purus. Aliquam erat volutpat. Vestibulum a malesuada purus. Etiam ipsum velit, vulputate in rhoncus quis, hendrerit vel odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>-->
-
-	<!--<section id="blog" class="panel" data-type="page" data-name="blog">
-		<div class="pageheader">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span12">
-						<h1>Blog</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="pagecontent">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span10">
-						<div class="post">
-							<div class="row-fluid">
-								<div class="span2">
-									<img alt="" src="img/face.jpg" />
-								</div>
-								<div class="span10">
-									<h4>March 2013</h4>
-									<p>BlueRoot Technologies would like to welcome you to its first monthly Newsletter! Adam, Lee, and Dan have been working diligently and would like to update you on what’s been going on since the New Year.</p>
-									<a class="btn btn-small" href="http://us6.campaign-archive1.com/?u=fbcb2bd5edf5de3f9ef3add93&id=bb3bc7e182&e=[UNIQID]">Read more ... </a>
-								</div>
-							</div>
-						</div>
-						<div class="post">
-							<div class="row-fluid">
-								<div class="span2">
-									<img alt="" src="img/face.jpg" />
-								</div>
-								<div class="span10">
-									<h4>April 2013</h4>
-									<p>Happy Monday Everyone!</p>
-                                    <p>Over the past month, We, The BlueRoot Team, have been working on several key components of our new device’s release. We have been vivifying the GUI of the mobile application, testing our information processing using our brand new ECU Emulator, and branching out to potential field trial users.</p>
-									<a class="btn btn-small" href="http://us6.campaign-archive1.com/?u=fbcb2bd5edf5de3f9ef3add93&id=bebb7c5f92&e=[UNIQID]">Read more ... </a>
-								</div>
-							</div>
-						</div>
-						<div class="post">
-							<div class="row-fluid">
-								<div class="span2">
-									<img alt="" src="img/face.jpg" />
-								</div>
-								<div class="span10">
-									<h4>May 2013</h4>
-									<p></p>
-									<a class="btn btn-small" href="#">Read more ... </a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--<div id="category" class="span2">
-						<h4>Categories</h4>
-						<ul>
-							<li><a href="#">Main category</a>
-								<ul>
-									<li><a href="#">Sub category</a></li>
-									<li><a href="#">Sub category</a></li>
-									<li><a href="#">Sub category</a></li>
-									<li><a href="#">Sub category</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Main category</a>
-								<ul>
-									<li><a href="#">Sub category</a></li>
-									<li><a href="#">Sub category</a></li>
-									<li><a href="#">Sub category</a></li>
-									<li><a href="#">Sub category</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Main category</a>
-								<ul>
-									<li><a href="#">Sub category</a></li>
-									<li><a href="#">Sub category</a></li>
-									<li><a href="#">Sub category</a></li>
-									<li><a href="#">Sub category</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>-->
-				</div>
-			</div>
-		</div>
-	</section>-->
-
-	<section id="contact" class="panel" data-type="page" data-name="contact">
-		<div class="pageheader">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span12">
-						<h1>Contact</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-             
-		<div class="pagecontent">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span8">
-                        <div class="address">
-						<h3>Address</h3>
-						<p>Lebanon, NH</p>
-                        </div>
-					</div>
-                </div>    
-            </div>
-            <div class="container">
-    			<div class="row-fluid">
-                    <div class="span6">
-    				    <h4>Newsletter Signup</h4>
-					        <p></p>
-					    <div class="row" id="subscribe">
-              </div>
-				</div>
-					<div id="emailform" class="span4 offset2">
-						<form>
-						<fieldset>
-							<legend>Email us</legend>
-							<div class="controls controls-row">
-							<label>Full name</label>
-							<input type="text" placeholder="Jane Doe">
-							<span class="help-block">Please enter your full name</span>
-							<label>Email</label>
-							<input type="text" placeholder="Jane@Doe.com">
-							<span class="help-block">Please enter a correct email address"</span>
-							<label>Phone number</label>
-							<input type="text" placeholder="001 000 000 000">
-							<span class="help-block">Please enter a number where we can reach you</span>
-                            <label>Message</label>
-        					<input type="text" placeholder="You guy's are awesome!">
-							<span class="help-block">Tell us what you would like to know</span>
-							<label class="checkbox">
-							<input type="checkbox"> Call me
-							</label>
-							<br />
-							<button type="submit" class="btn">Send</button>
-						</fieldset>
-						</form>
-					</div>
-                </div>
-            </div>
-		</div>
-	</section>
-
-	<footer id="footer">
-		<div class="container">
-			<div class="row-fluid">
-				<div class="span4">
-					<h4>About</h4>
-					<p></p>
-				</div>
-				<div class="span4">
-					<h4>Quick links</h4>
-					<nav id="navbottom">
-						<ul>
-							<li><a href="#home" class="active">HOME</a></li>
-							<li><a href="#about-us">ABOUT ME</a></li>
-							<li><a href="#projects">PROJECTS</a></li>
-							<!--<li><a href="#our-work">PROJECTS</a></li>-->
-							<!--<li><a href="#pricing">PRICING</a></li>-->
-							<li><a href="#blog">BLOG</a></li>
-							<li><a href="#contact">CONTACT</a></li>
-						</ul>
+					<span class="flip-icon flip-icon-close"></span>
+				</section>
+				
+				
+				
+				
+			<!--=========== PROJECTS DESCRIPTIONS SECTION ===========-->
+				<div class="flip-panel-items" id="flip-panel-work-items">
+					<div data-panel="panel-1">
+						<div class="row-fluid">
+							<div class="span8 offset2 tweak">
+								<img src="images/project1.jpg" />
+								<br>
+								<br>
+								<h4>Project Overview</h4>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+								<h4>Project Details</h4>
+								<p>When an unknown printer took a galley of type and scramfliped it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop puflipishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							</div><!-- /span8 -->
+						</div><!-- /row-fluid -->	
+					</div><!-- /panel1 -->
+					
+					<div data-panel="panel-2">
+						<div class="row-fluid">
+							<div class="span8 offset2 tweak">
+							<img src="images/project2.jpg" />
+							<br>
+							<br>
+							<h4>Project Overview</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+							<h4>Project Details</h4>
+							<p>When an unknown printer took a galley of type and scramfliped it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop puflipishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							</div><!-- /span8 -->
+						</div><!-- /row-fluid -->	
+					</div><!-- /panel2 -->
+					
+					<div data-panel="panel-3">
+						<div class="row-fluid">
+							<div class="span8 offset2 tweak">
+							<img src="images/project3.jpg" />
+							<br>
+							<br>
+							<h4>Project Overview</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+							<h4>Project Details</h4>
+							<p>When an unknown printer took a galley of type and scramfliped it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop puflipishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							</div><!-- /span8 -->
+						</div><!-- /row-fluid -->	
+					</div><!-- /panel3 -->
+					
+					<nav>
+						<span class="flip-next-work">&gt; Next Project</span>
+						<span class="flip-icon flip-icon-close"></span>
 					</nav>
-				</div>
-				<div class="span4">
-					<h4>Social</h4>
-					<div id="social">
-						<ul>
-							<!--<li><i class="icon-github"></i><a href="#">github.com/supertheme</a></li>-->
-							<!--<li><i class="icon-twitter"></i><a href="#">twitter.com/supertheme</a></li>-->
-							<li><img src="./img/blogger.png" /><!--<i class="icon-google-plus"></i>--><a href="https://plus.google.com/u/0/100477363545593121112">Google+</a></li>
-							<li><img src="./img/facebook.png" /><!--<i class="icon-facebook"></i>--><a href="https://www.facebook.com/BlueRootTechnologiesLLC">Facebook</a></li>
-							<!--<li><i class="icon-linkedin"></i><a href="#">linkedin.com/supertheme</a></li>-->
-						</uL>
-					</div>
-				</div>
-			</div>
-			<div class="row-fluid">
-				<div class="span12" id="copyright">
-					<p>BlueRoot Technologies, LLC &copy; 2012</p>
-				</div>
-			</div>
-		</div>
-	</footer>
+				</div><!-- /panel-items -->
+				
+				
+			</div><!-- /flip-main -->
 
-	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="./js/site.js"></script>
+    </div> <!-- /container -->
 
-</body>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
 
+		<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/boxlayout.js"></script>
+    <script type="text/javascript" scr="js/flip.js"></script>
+		<script>
+			$(function() {
+				Boxlayout.init();
+			});
+		</script>
+  </body>
 </html>
