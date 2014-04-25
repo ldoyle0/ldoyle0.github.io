@@ -84,7 +84,7 @@ a:hover {
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 50%;
-	background: url('../images/working2.jpg') no-repeat; 
+	background: url('../images/working2_1.jpg') no-repeat; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -94,7 +94,7 @@ a:hover {
 .bl-main > section:nth-child(3) {
 	top: 50%;
 	left: 0;
-	background: url('../images/winding_path.jpg') no-repeat; 
+	background: url('../images/winding_path_1.jpg') no-repeat; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -104,7 +104,7 @@ a:hover {
 .bl-main > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background: url('../images/table.jpg') no-repeat; 
+	background: url('../images/table_1.jpg') no-repeat; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -202,7 +202,9 @@ div.bl-panel-items > div > div {
 /* Custom content */
 
 .bl-content p {
-	margin: 0 auto;
+	margin: auto auto;
+  width: 960px;
+  padding-top: 15px;
 	padding-bottom: 15px;
 	font-size: 1.7em;
 	line-height: 1.8;
@@ -212,6 +214,15 @@ div.bl-panel-items > div > div {
 	font-size: 3em;
 	font-weight: 300;
 	margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.bl-content article img{
+  width: 960px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bl-content article {
@@ -222,9 +233,10 @@ div.bl-panel-items > div > div {
 	font-weight: 700;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	margin: 0 0 10px 0;
+	margin-left: auto;
+  width: 960px;
 	padding-top: 20px;
-	font-size: 1.4em;
+	font-size: 3em;
 }
 
 .bl-content article a {
@@ -275,6 +287,9 @@ div.bl-panel-items > div > div {
   background:transparent !important;
   -webkit-box-shadow:rgba(0, 0, 0, 0) 0 0 0 inset;
   margin-bottom:10px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bar {
@@ -287,6 +302,7 @@ div.bl-panel-items > div > div {
   text-shadow: none !important;
   text-align:left !important;
   padding-left:30px !important;
+
 }
 
 /* --------------------------------------------------------	*/
