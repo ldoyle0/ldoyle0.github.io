@@ -595,15 +595,7 @@ section.bl-expand .bl-icon-close {
 .social-network.technorati{ background-position: -1480px 0}
 .social-network.tumblr{ background-position: -1520px 0}
 .social-network.twitter{ background-position: -1560px 0}
-.social-network.viddler{ background-position: -1600px 0}
-.social-network.vimeo{ background-position: -1640px 0}
-.social-network.virb{ background-position: -1680px 0}
-.social-network.wordpress{ background-position: -1720px 0}
-.social-network.xing{ background-position: -1760px 0}
-.social-network.yahoo{ background-position: -1800px 0}
-.social-network.yelp{ background-position: -1840px 0}
-.social-network.youtube{ background-position: -1880px 0}
-.social-network.zerply{ background-position: -1920px 0}
+
   
 /* mouseover */
 .social-network.aim:hover,.active .social-network.aim{ background-position: 0 -40px}
@@ -646,15 +638,6 @@ section.bl-expand .bl-icon-close {
 .social-network.technorati:hover,.active .social-network.technorati{ background-position: -1480px -40px}
 .social-network.tumblr:hover,.active .social-network.tumblr{ background-position: -1520px -40px}
 .social-network.twitter:hover,.active .social-network.twitter{ background-position: -1560px -40px}
-.social-network.viddler:hover,.active .social-network.viddler{ background-position: -1600px -40px}
-.social-network.vimeo:hover,.active .social-network.vimeo{ background-position: -1640px -40px}
-.social-network.virb:hover,.active .social-network.virb{ background-position: -1680px -40px}
-.social-network.wordpress:hover,.active .social-network.wordpress{ background-position: -1720px -40px}
-.social-network.xing:hover,.active .social-network.xing{ background-position: -1760px -40px}
-.social-network.yahoo:hover,.active .social-network.yahoo{ background-position: -1800px -40px}
-.social-network.yelp:hover,.active .social-network.yelp{ background-position: -1840px -40px}
-.social-network.youtube:hover,.active .social-network.youtube{ background-position: -1880px -40px}
-.social-network.zerply:hover,.active .social-network.zerply{ background-position: -1920px -40px}
 
 @media screen and (max-width: 46.5em) {
 	.bl-content,
