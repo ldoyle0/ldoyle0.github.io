@@ -555,87 +555,33 @@ section.bl-expand .bl-icon-close {
 }
 
 /* normal */
-.social-network.aim{ background-position: 0 0}
-.social-network.amazon{ background-position: -40px 0}
-.social-network.apple{ background-position: -80px 0}
-.social-network.behance{ background-position: -120px 0}
-.social-network.blogger{ background-position: -160px 0}
-.social-network.delicious{ background-position: -200px 0}
-.social-network.deviantart{ background-position: -240px 0}
-.social-network.digg{ background-position: -280px 0}
-.social-network.dribbble{ background-position: -320px 0}
-.social-network.ebay{ background-position: -360px 0}
 .social-network.evernote{ background-position: -400px 0}
 .social-network.facebook{ background-position: -440px 0}
-.social-network.feedburner{ background-position: -480px 0}
-.social-network.flickr{ background-position: -520px 0}
-.social-network.forrst{ background-position: -560px 0}
-.social-network.foursquare{ background-position: -600px 0}
+
 .social-network.github{ background-position: -640px 0}
 .social-network.google{ background-position: -680px 0}
-.social-network.gowalla{ background-position: -720px 0}
-.social-network.icq{ background-position: -760px 0}
-.social-network.itunes{ background-position: -800px 0}
-.social-network.lastfm{ background-position: -840px 0}
 .social-network.linkedin{ background-position: -880px 0}
-.social-network.meetup{ background-position: -920px 0}
-.social-network.ms{ background-position: -960px 0}
-.social-network.newsvine{ background-position: -1000px 0}
-.social-network.openid{ background-position: -1040px 0}
-.social-network.paypal{ background-position: -1080px 0}
-.social-network.picasa{ background-position: -1120px 0}
-.social-network.pinterest{ background-position: -1160px 0}
-.social-network.posterous{ background-position: -1200px 0}
+
 .social-network.reddit{ background-position: -1240px 0}
 .social-network.rss{ background-position: -1280px 0}
 .social-network.skype{ background-position: -1320px 0}
-.social-network.slashdot{ background-position: -1360px 0}
-.social-network.soundcloud{ background-position: -1400px 0}
-.social-network.stumbleupon{ background-position: -1440px 0}
-.social-network.technorati{ background-position: -1480px 0}
+
 .social-network.tumblr{ background-position: -1520px 0}
 .social-network.twitter{ background-position: -1560px 0}
 
   
 /* mouseover */
-.social-network.aim:hover,.active .social-network.aim{ background-position: 0 -40px}
-.social-network.amazon:hover,.active .social-network.amazon{ background-position: -40px -40px}
-.social-network.apple:hover,.active .social-network.apple{ background-position: -80px -40px}
-.social-network.behance:hover,.active .social-network.behance{ background-position: -120px -40px}
-.social-network.blogger:hover,.active .social-network.blogger{ background-position: -160px -40px}
-.social-network.delicious:hover,.active .social-network.delicious{ background-position: -200px -40px}
-.social-network.deviantart:hover,.active .social-network.deviantart{ background-position: -240px -40px}
-.social-network.digg:hover,.active .social-network.digg{ background-position: -280px -40px}
-.social-network.dribbble:hover,.active .social-network.dribbble{ background-position: -320px -40px}
-.social-network.ebay:hover,.active .social-network.ebay{ background-position: -360px -40px}
 .social-network.evernote:hover,.active .social-network.evernote{ background-position: -400px -40px}
 .social-network.facebook:hover,.active .social-network.facebook{ background-position: -440px -40px}
-.social-network.feedburner:hover,.active .social-network.feedburner{ background-position: -480px -40px}
-.social-network.flickr:hover,.active .social-network.flickr{ background-position: -520px -40px}
-.social-network.forrst:hover,.active .social-network.forrst{ background-position: -560px -40px}
-.social-network.foursquare:hover,.active .social-network.foursquare{ background-position: -600px -40px}
+
 .social-network.github:hover,.active .social-network.github{ background-position: -640px -40px}
 .social-network.google:hover,.active .social-network.google{ background-position: -680px -40px}
-.social-network.gowalla:hover,.active .social-network.gowalla{ background-position: -720px -40px}
-.social-network.icq:hover,.active .social-network.icq{ background-position: -760px -40px}
-.social-network.itunes:hover,.active .social-network.itunes{ background-position: -800px -40px}
-.social-network.lastfm:hover,.active .social-network.lastfm{ background-position: -840px -40px}
 .social-network.linkedin:hover,.active .social-network.linkedin{ background-position: -880px -40px}
-.social-network.meetup:hover,.active .social-network.meetup{ background-position: -920px -40px}
-.social-network.ms:hover,.active .social-network.ms{ background-position: -960px -40px}
-.social-network.newsvine:hover,.active .social-network.newsvine{ background-position: -1000px -40px}
-.social-network.openid:hover,.active .social-network.openid{ background-position: -1040px -40px}
-.social-network.paypal:hover,.active .social-network.paypal{ background-position: -1080px -40px}
-.social-network.picasa:hover,.active .social-network.picasa{ background-position: -1120px -40px}
-.social-network.pinterest:hover,.active .social-network.pinterest{ background-position: -1160px -40px}
-.social-network.posterous:hover,.active .social-network.posterous{ background-position: -1200px -40px}
+
 .social-network.reddit:hover,.active .social-network.reddit{ background-position: -1240px -40px}
 .social-network.rss:hover,.active .social-network.rss{ background-position: -1280px -40px}
 .social-network.skype:hover,.active .social-network.skype{ background-position: -1320px -40px}
-.social-network.slashdot:hover,.active .social-network.slashdot{ background-position: -1360px -40px}
-.social-network.soundcloud:hover,.active .social-network.soundcloud{ background-position: -1400px -40px}
-.social-network.stumbleupon:hover,.active .social-network.stumbleupon{ background-position: -1440px -40px}
-.social-network.technorati:hover,.active .social-network.technorati{ background-position: -1480px -40px}
+
 .social-network.tumblr:hover,.active .social-network.tumblr{ background-position: -1520px -40px}
 .social-network.twitter:hover,.active .social-network.twitter{ background-position: -1560px -40px}
 
