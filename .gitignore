@@ -1,3 +1,6 @@
 node_modules
 metadata.json
 *.log
+.git
+.c9
+.c9revisions

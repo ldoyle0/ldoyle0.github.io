@@ -36,7 +36,7 @@ h1 {
 h2 {
   font-size: 18px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 1px;
   margin: 0;
 }
@@ -64,6 +64,22 @@ div i {
 p {
   font-size: 18px;
 }
+
+a,
+a:visited {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+a:hover,
+a:focus,
+a:active {
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+/* Title */
 
 .title {
     background-color: #e5e6e6;
@@ -114,96 +130,41 @@ img {
   max-width: 100%;
 }
 
-.img-circle {
-  -webkit-border-radius: 500px;
-     -moz-border-radius: 500px;
-          border-radius: 500px;
-}
+/* Footer */
 
-.row-fluid {
-  width: 100%;
-  *zoom: 1;
+footer {
+  padding-top: 75px;
+  padding-bottom: 0;
 }
-
-.row-fluid:before,
-.row-fluid:after {
-  display: table;
-  line-height: 0;
-  content: "";
+@media only screen and (max-width: 767px) {
+  footer {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
 }
-
-.row-fluid:after {
-  clear: both;
-}
-
-.row-fluid [class*="span"] {
-  display: block;
-  float: left;
-  width: 100%;
-  min-height: 30px;
-  margin-left: 2.127659574468085%;
-  *margin-left: 2.074468085106383%;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.row-fluid [class*="span"]:first-child {
-  margin-left: 0;
-}
-
-.row-fluid .span8 {
-  width: 65.95744680851064%;
-  *width: 65.90425531914893%;
-}
-
-.row-fluid .span6 {
-  width: 48.93617021276595%;
-  *width: 48.88297872340425%;
-}
-
-.row-fluid .span4 {
-  width: 31.914893617021278%;
-  *width: 31.861702127659576%;
-}
-
-.row-fluid .span3 {
-  width: 23.404255319148934%;
-  *width: 23.351063829787233%;
-}
-
-.offset {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
 footer ul,
 footer ul li {
   list-style-type: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
-
-a,
-a:visited {
-  text-decoration: none;
-  font-weight: 600;
-  color: white;
+footer .row > div {
+  padding-bottom: 75px;
 }
-a:hover,
-a:focus,
-a:active {
-  color: white;
-  border-bottom: 1px solid white;
-  padding-bottom: 5px;
+@media only screen and (max-width: 767px) {
+  footer .row > div {
+    padding-bottom: 50px;
+  }
 }
-
-footer {
-  padding-top: 50px;
-  padding-bottom: 0;
-  margin-bottom: 0;
+footer .follow-btn {
+  border: 2px solid #41474e;
+  padding: 5px 15px 8px 15px;
+  margin-top: 10px;
+  display: inline-block;
 }
-
+footer .follow-btn:hover {
+  background-color: #41474e;
+}
 footer p {
   margin-bottom: 15px;
 }
